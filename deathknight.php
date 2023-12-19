@@ -40,5 +40,6 @@ var theURLtoCopy = "<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_
 <script type="text/javascript" src="talents/deathknight/localize.js"></script>
 <script type="text/javascript" src="talents/deathknight/arraysFill.js"></script>
 <script type="text/javascript" src="talents/deathknight/printOutTop.js"></script>
+<script type="text/javascript" src="talents/common.js"></script>
 </body>
 </html>

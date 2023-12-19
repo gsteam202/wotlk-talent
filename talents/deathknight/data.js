@@ -19,62 +19,62 @@ talent[i] = [0, "파괴의 칼날", 3, 2, 1]; i++;
 talent[i] = [0, "칼날 보호막", 5, 3, 1]; i++;
 talent[i] = [0, "칼날 갑옷", 5, 1, 2]; i++;
 talent[i] = [0, "피의 향기", 3, 2, 2]; i++;
-talent[i] = [0, "Two-Handed Weapon Specialization", 2, 3, 2]; i++;
-talent[i] = [0, "Rune Tap", 1, 1, 3]; i++;
-talent[i] = [0, "Dark Conviction", 5, 2, 3]; i++;
-talent[i] = [0, "Death Rune Mastery", 3, 3, 3]; i++;
-talent[i] = [0, "Improved Rune Tap", 3, 1, 4, [getTalentID("Rune Tap"),1]]; i++;
-talent[i] = [0, "Spell Deflection", 3, 3, 4]; i++;
-talent[i] = [0, "Vendetta", 3, 4, 4]; i++;
-talent[i] = [0, "Bloody Strikes", 3, 1, 5]; i++;
-talent[i] = [0, "Veteran of the Third War", 3, 3, 5]; i++;
-talent[i] = [0, "Mark of Blood", 1, 4, 5]; i++;
-talent[i] = [0, "Bloody Vengeance", 3, 2, 6, [getTalentID("Dark Conviction"),5]]; i++;
-talent[i] = [0, "Abomination's Might", 2, 3, 6]; i++;
-talent[i] = [0, "Bloodworms", 3, 1, 7]; i++;
-talent[i] = [0, "Hysteria", 1, 2, 7]; i++;
-talent[i] = [0, "Improved Blood Presence", 2, 3, 7]; i++;
-talent[i] = [0, "Improved Death Strike", 2, 1, 8]; i++;
-talent[i] = [0, "Sudden Doom", 3, 2, 8]; i++;
-talent[i] = [0, "Vampiric Blood", 1, 3, 8]; i++;
-talent[i] = [0, "Will of the Necropolis", 3, 1, 9]; i++;
-talent[i] = [0, "Heart Strike", 1, 2, 9]; i++;
-talent[i] = [0, "Might of Mograine", 3, 3, 9]; i++;
-talent[i] = [0, "Blood Gorged", 5, 2, 10]; i++;
-talent[i] = [0, "Dancing Rune Weapon", 1, 2, 11]; i++;
+talent[i] = [0, "양손 무기류 전문화", 2, 3, 2]; i++;
+talent[i] = [0, "룬 전환", 1, 1, 3]; i++;
+talent[i] = [0, "암흑의 자각", 5, 2, 3]; i++;
+talent[i] = [0, "죽음의 룬 숙련", 3, 3, 3]; i++;
+talent[i] = [0, "룬 전환 연마", 3, 1, 4, [getTalentID("Rune Tap"),1]]; i++;
+talent[i] = [0, "주문 회피", 3, 3, 4]; i++;
+talent[i] = [0, "원한", 3, 4, 4]; i++;
+talent[i] = [0, "핏빛 일격", 3, 1, 5]; i++;
+talent[i] = [0, "3차 대전쟁의 역전용사", 3, 3, 5]; i++;
+talent[i] = [0, "피의 징표", 1, 4, 5]; i++;
+talent[i] = [0, "피의 복수", 3, 2, 6, [getTalentID("Dark Conviction"),5]]; i++;
+talent[i] = [0, "누더기골렘의 힘", 2, 3, 6]; i++;
+talent[i] = [0, "피구더기", 3, 1, 7]; i++;
+talent[i] = [0, "부정의 광기", 1, 2, 7]; i++;
+talent[i] = [0, "혈기의 형상 연마", 2, 3, 7]; i++;
+talent[i] = [0, "죽음의 일격 연마", 2, 1, 8]; i++;
+talent[i] = [0, "불시의 파멸", 3, 2, 8]; i++;
+talent[i] = [0, "흡혈", 1, 3, 8]; i++;
+talent[i] = [0, "죽음의 요새의 결의", 3, 1, 9]; i++;
+talent[i] = [0, "심장 강타", 1, 2, 9]; i++;
+talent[i] = [0, "모그레인의 힘", 3, 3, 9]; i++;
+talent[i] = [0, "피의 탐닉", 5, 2, 10]; i++;
+talent[i] = [0, "춤추는 룬 무기", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
 
 //Frost talents
-talent[i] = [1, "Improved Icy Touch", 3, 1, 1]; i++;
-talent[i] = [1, "Runic Power Mastery", 2, 2, 1]; i++;
-talent[i] = [1, "Toughness", 5, 3, 1]; i++;
-talent[i] = [1, "Icy Reach", 2, 2, 2]; i++;
-talent[i] = [1, "Black Ice", 5, 3, 2]; i++;
-talent[i] = [1, "Nerves of Cold Steel", 3, 4, 2]; i++;
-talent[i] = [1, "Icy Talons", 5, 1, 3, [getTalentID("Improved Icy Touch"),3]]; i++;
-talent[i] = [1, "Lichborne", 1, 2, 3]; i++;
-talent[i] = [1, "Annihilation", 3, 3, 3]; i++;
-talent[i] = [1, "Killing Machine", 5, 2, 4]; i++;
-talent[i] = [1, "Chill of the Grave", 2, 3, 4]; i++;
-talent[i] = [1, "Endless Winter", 2, 4, 4]; i++;
-talent[i] = [1, "Frigid Dreadplate", 3, 2, 5]; i++;
-talent[i] = [1, "Glacier Rot", 3, 3, 5]; i++;
-talent[i] = [1, "Deathchill", 1, 4, 5]; i++;
-talent[i] = [1, "Improved Icy Talons", 1, 1, 6, [getTalentID("Icy Talons"),5]]; i++;
-talent[i] = [1, "Merciless Combat", 2, 2, 6]; i++
-talent[i] = [1, "Rime", 3, 3, 6]; i++;
-talent[i] = [1, "Chilblains", 3, 1, 7]; i++;
-talent[i] = [1, "Hungering Cold", 1, 2, 7]; i++;
-talent[i] = [1, "Improved Frost Presence", 2, 3, 7]; i++;
-talent[i] = [1, "Threat of Thassarian", 3, 1, 8]; i++;
-talent[i] = [1, "Blood of the North", 3, 2, 8]; i++;
-talent[i] = [1, "Unbreakable Armor", 1, 3, 8]; i++;
-talent[i] = [1, "Acclimation", 3, 1, 9]; i++;
-talent[i] = [1, "Frost Strike", 1, 2, 9]; i++;
-talent[i] = [1, "Guile of Gorefiend", 3, 3, 9]; i++;
-talent[i] = [1, "Tundra Stalker", 5, 2, 10]; i++;
-talent[i] = [1, "Howling Blast", 1, 2, 11]; i++;
+talent[i] = [1, "얼음 손길 연마", 3, 1, 1]; i++;
+talent[i] = [1, "룬 마력 전문화", 2, 2, 1]; i++;
+talent[i] = [1, "강인함", 5, 3, 1]; i++;
+talent[i] = [1, "얼음의 테두리", 2, 2, 2]; i++;
+talent[i] = [1, "검은 얼음", 5, 3, 2]; i++;
+talent[i] = [1, "차가운 강철 신경", 3, 4, 2]; i++;
+talent[i] = [1, "얼음 발톱", 5, 1, 3, [getTalentID("Improved Icy Touch"),3]]; i++;
+talent[i] = [1, "리치의 혼", 1, 2, 3]; i++;
+talent[i] = [1, "파멸", 3, 3, 3]; i++;
+talent[i] = [1, "도살기", 5, 2, 4]; i++;
+talent[i] = [1, "무덤의 한기", 2, 3, 4]; i++;
+talent[i] = [1, "영원한 겨울", 2, 4, 4]; i++;
+talent[i] = [1, "공포의 얼음갑옷", 3, 2, 5]; i++;
+talent[i] = [1, "부패의 얼음", 3, 3, 5]; i++;
+talent[i] = [1, "죽음의 한기", 1, 4, 5]; i++;
+talent[i] = [1, "얼음 발톱 연마", 1, 1, 6, [getTalentID("Icy Talons"),5]]; i++;
+talent[i] = [1, "무자비한 전투", 2, 2, 6]; i++
+talent[i] = [1, "단단한 얼음", 3, 3, 6]; i++;
+talent[i] = [1, "동창", 3, 1, 7]; i++;
+talent[i] = [1, "갈망의 한기", 1, 2, 7]; i++;
+talent[i] = [1, "냉기의 형상 연마", 2, 3, 7]; i++;
+talent[i] = [1, "타사리안의 위협", 3, 1, 8]; i++;
+talent[i] = [1, "극지의 피", 3, 2, 8]; i++;
+talent[i] = [1, "불굴의 갑옷", 1, 3, 8]; i++;
+talent[i] = [1, "순화력", 3, 1, 9]; i++;
+talent[i] = [1, "냉기의 일격", 1, 2, 9]; i++;
+talent[i] = [1, "고어핀드의 계략", 3, 3, 9]; i++;
+talent[i] = [1, "동토의 추적", 5, 2, 10]; i++;
+talent[i] = [1, "작렬하는 분노", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
 
@@ -120,8 +120,8 @@ i = 0;
 
 //Butchery - BLOOD
 rank[i] = [
-"Whenever you kill an enemy that grants experience or honor, you generate up to 10 runic power. In addition, you generate 1 runic power per 5 sec. while in combat.",
-"Whenever you kill an enemy that grants experience or honor, you generate up to 20 runic power. In addition, you generate 2 runic power per 5 sec. while in combat."
+"적을 처치한 후 경험치나 명예 점수를 받으면 룬 마력이 최대 10만큼 생성됩니다. 추가로 전투 중에도 매 5초마다 룬 마력이 1만큼 생성됩니다.",
+"적을 처치한 후 경험치나 명예 점수를 받으면 룬 마력이 최대 20만큼 생성됩니다. 추가로 전투 중에도 매 5초마다 룬 마력이 2만큼 생성됩니다."
 		];
 i++;	
 //Blood Talents End
@@ -136,12 +136,12 @@ i++;
 
 //BLADE BARRIER - BLOOD
 rank[i] = [
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 1% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 2% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 3% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 4% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 5% for the next 10 sec."
-		];
+	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 1% 감소시키는 블레이드 배리어 효과를 얻습니다.",
+	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 2% 감소시키는 블레이드 배리어 효과를 얻습니다.",
+	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 3% 감소시키는 블레이드 배리어 효과를 얻습니다.",
+	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 4% 감소시키는 블레이드 배리어 효과를 얻습니다.",
+	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 5% 감소시키는 블레이드 배리어 효과를 얻습니다."
+];
 i++;
 
 //Bladed Armor - Blood
