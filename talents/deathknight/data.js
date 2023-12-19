@@ -23,13 +23,13 @@ talent[i] = [0, "양손 무기류 전문화", 2, 3, 2]; i++;
 talent[i] = [0, "룬 전환", 1, 1, 3]; i++;
 talent[i] = [0, "암흑의 자각", 5, 2, 3]; i++;
 talent[i] = [0, "죽음의 룬 숙련", 3, 3, 3]; i++;
-talent[i] = [0, "룬 전환 연마", 3, 1, 4, [getTalentID("Rune Tap"),1]]; i++;
+talent[i] = [0, "룬 전환 연마", 3, 1, 4, [getTalentID("룬 전환"),1]]; i++;
 talent[i] = [0, "주문 회피", 3, 3, 4]; i++;
 talent[i] = [0, "원한", 3, 4, 4]; i++;
 talent[i] = [0, "핏빛 일격", 3, 1, 5]; i++;
 talent[i] = [0, "3차 대전쟁의 역전용사", 3, 3, 5]; i++;
 talent[i] = [0, "피의 징표", 1, 4, 5]; i++;
-talent[i] = [0, "피의 복수", 3, 2, 6, [getTalentID("Dark Conviction"),5]]; i++;
+talent[i] = [0, "피의 복수", 3, 2, 6, [getTalentID("암흑의 자각"),5]]; i++;
 talent[i] = [0, "누더기골렘의 힘", 2, 3, 6]; i++;
 talent[i] = [0, "피구더기", 3, 1, 7]; i++;
 talent[i] = [0, "부정의 광기", 1, 2, 7]; i++;
@@ -52,7 +52,7 @@ talent[i] = [1, "강인함", 5, 3, 1]; i++;
 talent[i] = [1, "얼음의 테두리", 2, 2, 2]; i++;
 talent[i] = [1, "검은 얼음", 5, 3, 2]; i++;
 talent[i] = [1, "차가운 강철 신경", 3, 4, 2]; i++;
-talent[i] = [1, "얼음 발톱", 5, 1, 3, [getTalentID("Improved Icy Touch"),3]]; i++;
+talent[i] = [1, "얼음 발톱", 5, 1, 3, [getTalentID("얼음 손길 연마"),3]]; i++;
 talent[i] = [1, "리치의 혼", 1, 2, 3]; i++;
 talent[i] = [1, "파멸", 3, 3, 3]; i++;
 talent[i] = [1, "도살기", 5, 2, 4]; i++;
@@ -61,7 +61,7 @@ talent[i] = [1, "영원한 겨울", 2, 4, 4]; i++;
 talent[i] = [1, "공포의 얼음갑옷", 3, 2, 5]; i++;
 talent[i] = [1, "부패의 얼음", 3, 3, 5]; i++;
 talent[i] = [1, "죽음의 한기", 1, 4, 5]; i++;
-talent[i] = [1, "얼음 발톱 연마", 1, 1, 6, [getTalentID("Icy Talons"),5]]; i++;
+talent[i] = [1, "얼음 발톱 연마", 1, 1, 6, [getTalentID("얼음 발톱"),5]]; i++;
 talent[i] = [1, "무자비한 전투", 2, 2, 6]; i++
 talent[i] = [1, "단단한 얼음", 3, 3, 6]; i++;
 talent[i] = [1, "동창", 3, 1, 7]; i++;
@@ -136,12 +136,12 @@ i++;
 
 //BLADE BARRIER - BLOOD
 rank[i] = [
-	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 1% 감소시키는 블레이드 배리어 효과를 얻습니다.",
-	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 2% 감소시키는 블레이드 배리어 효과를 얻습니다.",
-	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 3% 감소시키는 블레이드 배리어 효과를 얻습니다.",
-	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 4% 감소시키는 블레이드 배리어 효과를 얻습니다.",
-	"혈기 룬 재사용 대기시 10초 동안 받는 피해를 5% 감소시키는 블레이드 배리어 효과를 얻습니다."
-];
+"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 1% for the next 10 sec.",
+"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 2% for the next 10 sec.",
+"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 3% for the next 10 sec.",
+"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 4% for the next 10 sec.",
+"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 5% for the next 10 sec."
+		];
 i++;
 
 //Bladed Armor - Blood
