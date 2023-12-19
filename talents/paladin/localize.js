@@ -3,20 +3,20 @@ var lg = "/en"; // Example: /en
 var imgPath = "shared/global/talents";
 var pixelGif = "shared/wow-com/images/layout/pixel.gif";
 
-var textLevelRequired = "Level Required:";
-var textPointsLeft = "Points Left:";
-var textPointsSpent = "Points Spent:";
-var textPoint = "point";
-var textPoints = "points";
+var textLevelRequired = "필요 레벨:";
+var textPointsLeft = "남은 포인트:";
+var textPointsSpent = "사용한 포인트:";
+var textPoint = "";
+var textPoints = "";
 var textColon = ":";
-var textLeftClick = "Left Click to Learn"
-var textRightClick = "Right Click to Unlearn"
-var textRankColon = "Rank:"
-var textToSave = "To save the template for future reference, copy the URL below:";
-var textNextRank = "Next Rank:";
-var requiresRequires = "Requires";
-var requiresPointsIn = "points in";
-var requiresTalents = "Talents";
+var textLeftClick = "좌클릭: 추가"
+var textRightClick = "우클릭: 취소"
+var textRankColon = "레벨"
+var textToSave = "향후 참고를 위해 템플릿 저장을 원하면 아래 URL을 복사하세요:";
+var textNextRank = "다음 레벨:";
+var requiresRequires = "";
+var requiresPointsIn = " 필요";
+var requiresTalents = "특성";
 
 function getStringRequires(requirementPoints, requirementName) {
 	theS = "s";

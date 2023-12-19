@@ -1,12 +1,12 @@
 ﻿var i = 0;
 var t = 0;
 
-var className = "Death Knight Talents";
+var className = "죽음의 기사 특성";
 var talentPath = "/info/basics/talents/";
 
-tree[i] = "Blood"; i++;
-tree[i] = "Frost"; i++;
-tree[i] = "Unholy"; i++;
+tree[i] = "혈기"; i++;
+tree[i] = "냉기"; i++;
+tree[i] = "부정"; i++;
 
 i = 0;
 
@@ -14,11 +14,11 @@ i = 0;
 //horizontal position
 //vertical position
 //Blood talents
-talent[i] = [0, "Butchery", 2, 1, 1]; i++;
-talent[i] = [0, "Subversion", 3, 2, 1]; i++;
-talent[i] = [0, "Blade Barrier", 5, 3, 1]; i++;
-talent[i] = [0, "Bladed Armor", 5, 1, 2]; i++;
-talent[i] = [0, "Scent of Blood", 3, 2, 2]; i++;
+talent[i] = [0, "도살자", 2, 1, 1]; i++;
+talent[i] = [0, "파괴의 칼날", 3, 2, 1]; i++;
+talent[i] = [0, "칼날 보호막", 5, 3, 1]; i++;
+talent[i] = [0, "칼날 갑옷", 5, 1, 2]; i++;
+talent[i] = [0, "피의 향기", 3, 2, 2]; i++;
 talent[i] = [0, "Two-Handed Weapon Specialization", 2, 3, 2]; i++;
 talent[i] = [0, "Rune Tap", 1, 1, 3]; i++;
 talent[i] = [0, "Dark Conviction", 5, 2, 3]; i++;
