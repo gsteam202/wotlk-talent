@@ -2,7 +2,7 @@
 <head>
 <title>CraftedRO | Warrior Talents</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="talents/Warrior/talent.css" type="text/css" rel="stylesheet">
+<link href="talents/warrior/talent.css" type="text/css" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body style="background-color:#30384c">
@@ -12,16 +12,16 @@
 <a href="./index.html" title="Home"><img src="images/logo.png" alt="logo"></a>
 <br>
 <div>
-<a href="deathknight.php"><img src="../talents/class-images/class/deathknight.jpg"></a>
-<a href="druid.php"><img src="../talents/class-images/class/druid.jpg"></a>
-<a href="hunter.php"><img src="../talents/class-images/class/hunter.jpg"></a>
-<a href="mage.php"><img src="../talents/class-images/class/mage.jpg"></a>
-<a href="paladin.php"><img src="../talents/class-images/class/paladin.jpg"></a>
-<a href="priest.php"><img src="../talents/class-images/class/priest.jpg"></a>
-<a href="rogue.php"><img src="../talents/class-images/class/rogue.jpg"></a>
-<a href="shaman.php"><img src="../talents/class-images/class/shaman.jpg"></a>
-<a href="warlock.php"><img src="../talents/class-images/class/warlock.jpg"></a>
-<a href="warrior.php"><img src="../talents/class-images/class/warrior.jpg" style="box-shadow: 0 0 5px 1px #8ab4f8;"></a>
+<a href="deathknight.php"><img src="../class-images/class/deathknight.jpg"></a>
+<a href="druid.php"><img src="../class-images/class/druid.jpg"></a>
+<a href="hunter.php"><img src="../class-images/class/hunter.jpg"></a>
+<a href="mage.php"><img src="../class-images/class/mage.jpg"></a>
+<a href="paladin.php"><img src="../class-images/class/paladin.jpg"></a>
+<a href="priest.php"><img src="../class-images/class/priest.jpg"></a>
+<a href="rogue.php"><img src="../class-images/class/rogue.jpg"></a>
+<a href="shaman.php"><img src="../class-images/class/shaman.jpg"></a>
+<a href="warlock.php"><img src="../class-images/class/warlock.jpg"></a>
+<a href="warrior.php"><img src="../class-images/class/warrior.jpg" style="box-shadow: 0 0 5px 1px #8ab4f8;"></a>
 </div>
 </br>
 <div id="replaceMeWithTalents"></div>
@@ -32,13 +32,13 @@ var pageId = "Warrior";
 var variableIsSite = 1;
 var theURLtoCopy = "<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME']; ?>";
 </script>
-<script type="text/javascript" src="talents/Warrior/detection.js"></script>
-<script type="text/javascript" src="talents/Warrior/variables.js"></script>
-<script type="text/javascript" src="talents/Warrior/functions.js"></script>
-<script type="text/javascript" src="talents/Warrior/data.js"></script>
-<script type="text/javascript" src="talents/Warrior/donotlocalize.js"></script>
-<script type="text/javascript" src="talents/Warrior/localize.js"></script>
-<script type="text/javascript" src="talents/Warrior/arraysFill.js"></script>
-<script type="text/javascript" src="talents/Warrior/printOutTop.js"></script>
+<script type="text/javascript" src="talents/warrior/detection.js"></script>
+<script type="text/javascript" src="talents/warrior/variables.js"></script>
+<script type="text/javascript" src="talents/warrior/functions.js"></script>
+<script type="text/javascript" src="talents/warrior/data.js"></script>
+<script type="text/javascript" src="talents/warrior/donotlocalize.js"></script>
+<script type="text/javascript" src="talents/warrior/localize.js"></script>
+<script type="text/javascript" src="talents/warrior/arraysFill.js"></script>
+<script type="text/javascript" src="talents/warrior/printOutTop.js"></script>
 </body>
 </html>
