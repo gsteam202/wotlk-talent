@@ -5,6 +5,8 @@
     var namespace = urlParams.get('namespace');
     var realmSlug = urlParams.get('realmSlug');
 
+    console.log(characterName + '/' + namespace + '/' + realmSlug);
+
     if (characterName && namespace && realmSlug) {
         fetch(`https://wowndde.huzy.net/api/character-specializations?characterName=${characterName}&namespace=${namespace}&realmSlug=${realmSlug}`)
             .then((result) => {
