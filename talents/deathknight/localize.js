@@ -1,4 +1,4 @@
-var lg = "/ko"; // Example: /en
+var lg = "/en"; // Example: /en
 
 var imgPath = "shared/global/talents";
 var pixelGif = "shared/wow-com/images/layout/pixel.gif";
