@@ -1,4 +1,4 @@
-var lg = "/en"; // Example: /en
+var lg = "/ko"; // Example: /en
 
 var imgPath = "shared/global/talents";
 var pixelGif = "shared/wow-com/images/layout/pixel.gif";
@@ -9,7 +9,7 @@ var textPointsSpent = "사용한 포인트:";
 var textPoint = "";
 var textPoints = "";
 var textColon = ":";
-var textLeftClick = "좌클릭: 추가"
+var textLeftClick = "배우려면 클릭"
 var textRightClick = "우클릭: 취소"
 var textRankColon = "레벨"
 var textToSave = "향후 참고를 위해 템플릿 저장을 원하면 아래 URL을 복사하세요:";

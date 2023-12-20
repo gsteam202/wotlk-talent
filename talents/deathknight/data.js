@@ -79,37 +79,37 @@ treeStartStop[t] = i -1;
 t++;
 
 //Unholy talents
-talent[i] = [2, "Vicious Strikes", 2, 1, 1]; i++;
-talent[i] = [2, "Virulence", 3, 2, 1]; i++;
-talent[i] = [2, "Anticipation", 5, 3, 1]; i++;
-talent[i] = [2, "Epidemic", 2, 1, 2]; i++;
-talent[i] = [2, "Morbidity", 3, 2, 2]; i++;
-talent[i] = [2, "Unholy Command", 2, 3, 2]; i++;
-talent[i] = [2, "Ravenous Dead", 3, 4, 2]; i++;
-talent[i] = [2, "Outbreak", 3, 1, 3]; i++;
-talent[i] = [2, "Necrosis", 5, 2, 3]; i++;
-talent[i] = [2, "Corpse Explosion", 1, 3, 3]; i++;
-talent[i] = [2, "On a Pale Horse", 2, 2, 4]; i++;
-talent[i] = [2, "Blood-Caked Blade", 3, 3, 4]; i++;
-talent[i] = [2, "Night of the Dead", 2, 4, 4]; i++;
-talent[i] = [2, "Unholy Blight", 1, 1, 5]; i++;
-talent[i] = [2, "Impurity", 5, 2, 5]; i++;
-talent[i] = [2, "Dirge", 2, 3, 5]; i++;
-talent[i] = [2, "Desecration", 2, 1, 6]; i++;
-talent[i] = [2, "Magic Suppression", 3, 2, 6]; i++;
-talent[i] = [2, "Reaping", 3, 3, 6]; i++;
-talent[i] = [2, "Master of Ghouls", 1, 4, 6, [getTalentID("Night of the Dead"),2]]; i++;
-talent[i] = [2, "Desolation", 5, 1, 7]; i++;
-talent[i] = [2, "Anti-Magic Zone", 1, 2, 7, [getTalentID("Magic Suppression"),3]]; i++;
-talent[i] = [2, "Improved Unholy Presence", 2, 3, 7]; i++;
-talent[i] = [2, "Ghoul Frenzy", 1, 4, 7, [getTalentID("Master of Ghouls"),1]]; i++;
-talent[i] = [2, "Crypt Fever", 3, 2, 8]; i++;
-talent[i] = [2, "Bone Shield", 1, 3, 8]; i++;
-talent[i] = [2, "Wandering Plague", 3, 1, 9]; i++;
-talent[i] = [2, "Ebon Plaguebringer", 3, 2, 9, [getTalentID("Crypt Fever"),3]]; i++;
-talent[i] = [2, "Scourge Strike", 1, 3, 9]; i++;
-talent[i] = [2, "Rage of Rivendare", 5, 2, 10]; i++;
-talent[i] = [2, "Summon Gargoyle", 1, 2, 11]; i++;
+talent[i] = [2, "악의의 일격", 2, 1, 1]; i++;
+talent[i] = [2, "발병력", 3, 2, 1]; i++;
+talent[i] = [2, "직감", 5, 3, 1]; i++;
+talent[i] = [2, "유행성 병균", 2, 1, 2]; i++;
+talent[i] = [2, "병독", 3, 2, 2]; i++;
+talent[i] = [2, "부정의 명령", 2, 3, 2]; i++;
+talent[i] = [2, "포악한 사자", 3, 4, 2]; i++;
+talent[i] = [2, "돌발 열병", 3, 1, 3]; i++;
+talent[i] = [2, "괴사", 5, 2, 3]; i++;
+talent[i] = [2, "시체 폭발", 1, 3, 3]; i++;
+talent[i] = [2, "창백한 말", 2, 2, 4]; i++;
+talent[i] = [2, "피 묻은 칼날", 3, 3, 4]; i++;
+talent[i] = [2, "사자의 밤", 2, 4, 4]; i++;
+talent[i] = [2, "부정의 파멸충", 1, 1, 5]; i++;
+talent[i] = [2, "불순함", 5, 2, 5]; i++;
+talent[i] = [2, "진혼곡", 2, 3, 5]; i++;
+talent[i] = [2, "모독", 2, 1, 6]; i++;
+talent[i] = [2, "마법 억제", 3, 2, 6]; i++;
+talent[i] = [2, "영혼 거두기", 3, 3, 6]; i++;
+talent[i] = [2, "구울의 지배자", 1, 4, 6, [getTalentID("사자의 밤"),2]]; i++;
+talent[i] = [2, "황폐화", 5, 1, 7]; i++;
+talent[i] = [2, "대마법 지대", 1, 2, 7, [getTalentID("마법 억제"),3]]; i++;
+talent[i] = [2, "부정의 형상 연마", 2, 3, 7]; i++;
+talent[i] = [2, "구울의 광기", 1, 4, 7, [getTalentID("구울의 지배자"),1]]; i++;
+talent[i] = [2, "지하 열병", 3, 2, 8]; i++;
+talent[i] = [2, "뼈의 보호막", 1, 3, 8]; i++;
+talent[i] = [2, "떠도는 역병", 3, 1, 9]; i++;
+talent[i] = [2, "칠흑의 역병인도자", 3, 2, 9, [getTalentID("지하 열병"),3]]; i++;
+talent[i] = [2, "스컬지의 일격", 1, 3, 9]; i++;
+talent[i] = [2, "리븐데어의 분노", 5, 2, 10]; i++;
+talent[i] = [2, "가고일 부르기", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
 
@@ -128,50 +128,50 @@ i++;
 
 //SUBVERSION - BLOOD
 rank[i] = [
-"Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 3%, and reduces threat generated while in Blood or Unholy Presence by 8%.",
-"Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 6%, and reduces threat generated while in Blood or Unholy Presence by 16%.",
-"Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 9%, and reduces threat generated while in Blood or Unholy Presence by 25%."
+"피의 일격과 스컬지의 일격, 심장 강타, 절멸이 치명타로 적중할 확률이 3%만큼 증가하고, 혈기의 형상과 부정의 형상을 취했을 때 생성되는 위협 수준이 8%만큼 감소합니다.",
+"피의 일격과 스컬지의 일격, 심장 강타, 절멸이 치명타로 적중할 확률이 6%만큼 증가하고, 혈기의 형상과 부정의 형상을 취했을 때 생성되는 위협 수준이 16%만큼 감소합니다.",
+"피의 일격과 스컬지의 일격, 심장 강타, 절멸이 치명타로 적중할 확률이 9%만큼 증가하고, 혈기의 형상과 부정의 형상을 취했을 때 생성되는 위협 수준이 25%만큼 감소합니다."
 		];
 i++;
 
 //BLADE BARRIER - BLOOD
 rank[i] = [
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 1% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 2% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 3% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 4% for the next 10 sec.",
-"Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 5% for the next 10 sec."
+	"혈기 룬이 모두 재사용 대기 상태일 때, 다음 10 sec 동안 받는 피해를 1%만큼 감소시키는 칼날 보호막 효과를 얻습니다.",
+	"혈기 룬이 모두 재사용 대기 상태일 때, 다음 10 sec 동안 받는 피해를 2%만큼 감소시키는 칼날 보호막 효과를 얻습니다.",
+	"혈기 룬이 모두 재사용 대기 상태일 때, 다음 10 sec 동안 받는 피해를 3%만큼 감소시키는 칼날 보호막 효과를 얻습니다.",
+	"혈기 룬이 모두 재사용 대기 상태일 때, 다음 10 sec 동안 받는 피해를 4%만큼 감소시키는 칼날 보호막 효과를 얻습니다.",
+	"혈기 룬이 모두 재사용 대기 상태일 때, 다음 10 sec 동안 받는 피해를 5%만큼 감소시키는 칼날 보호막 효과를 얻습니다.",
 		];
 i++;
 
 //Bladed Armor - Blood
 rank[i] = [
-"Increases your attack power by 1 for every 180 armor value you have. ",
-"Increases your attack power by 2 for every 180 armor value you have. ",
-"Increases your attack power by 3 for every 180 armor value you have. ",
-"Increases your attack power by 4 for every 180 armor value you have. ",
-"Increases your attack power by 5 for every 180 armor value you have. "
+	"방어도 180당 전투력이 1만큼 증가합니다.",
+	"방어도 180당 전투력이 2만큼 증가합니다.",
+	"방어도 180당 전투력이 3만큼 증가합니다.",
+	"방어도 180당 전투력이 4만큼 증가합니다.",
+	"방어도 180당 전투력이 5만큼 증가합니다.",
 		];
 i++;
 
 //SCENT OF BLOOD - BLOOD
 rank[i] = [
-"You have a 15% chance after being struck by a ranged or melee hit to gain the Scent of Blood effect, causing your next melee hit to generate 5 runic power. This effect cannot occur more often than once every 20 sec.",
-"You have a 15% chance after being struck by a ranged or melee hit to gain the Scent of Blood effect, causing your next 2 melee hits to generate 5 runic power. This effect cannot occur more often than once every 20 sec.",
-"You have a 15% chance after being struck by a ranged or melee hit to gain the Scent of Blood effect, causing your next 3 melee hits to generate 5 runic power. This effect cannot occur more often than once every 20 sec."
+"공격을 회피하거나, 무기로 막거나, 직접 피해를 받으면 15%의 확률로 피의 향기 효과를 얻어 다음 1회의 근접 공격 동안 10의 룬 마력을 생성합니다.",
+"공격을 회피하거나, 무기로 막거나, 직접 피해를 받으면 15%의 확률로 피의 향기 효과를 얻어 다음 2회의 근접 공격 동안 10의 룬 마력을 생성합니다.",
+"공격을 회피하거나, 무기로 막거나, 직접 피해를 받으면 15%의 확률로 피의 향기 효과를 얻어 다음 3회의 근접 공격 동안 10의 룬 마력을 생성합니다."
 		];
 i++;
 	
 //Two-Handed Weapon Specialization - BLOOD
 rank[i] = [
-"Increases the damage you deal with two-handed melee weapons by 2%.",
-"Increases the damage you deal with two-handed melee weapons by 4%."
+"양손 무기의 공격력이 2%만큼 증가합니다.",
+"양손 무기의 공격력이 4%만큼 증가합니다."
 		];
 i++;	
 	
 //Rune Tap - Blood
 rank[i] = [
-"<span style=text-align:left;float:left;>1 Blood<br></span><br><span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>1 min cooldown</span><br>Converts 1 Blood Rune into 10% of your maximum health."
+"<span style=text-align:left;float:left;>1 혈기 룬<br></span><br><span style=text-align:left;float:left;>즉시시전</span><span style=text-align:right;float:right;>1분 재사용 대기시간</span><br>룬 전환으로 회복되는 생명력이 33%만큼 증가하고 룬 전환 주문의 재사용 대기시간이 10초만큼 감소합니다."
 		];
 i++;
 	
